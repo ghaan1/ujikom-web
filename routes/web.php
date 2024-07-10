@@ -16,7 +16,10 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('index');
+    return redirect()->route('arsip-surat.index');
+});
+Route::get('/about', function () {
+    return view('about');
 });
 Route::resource('kategori-surat', KategoriSuratController::class);
 Route::resource('arsip-surat', ArsipSuratController::class);

@@ -15,7 +15,7 @@
                     Surat</a>
             </li>
             <li>
-                <a href=""><i class="material-icons-two-tone">bookmark</i>About</a>
+                <a href="/about"><i class="material-icons-two-tone">bookmark</i>About</a>
             </li>
         </ul>
     </div>
