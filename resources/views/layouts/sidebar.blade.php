@@ -11,7 +11,8 @@
                 <a href="mailbox.html"><i class="material-icons-two-tone">inbox</i>Arsip</a>
             </li>
             <li>
-                <a href="file-manager.html"><i class="material-icons-two-tone">edit</i>Kategori Surat</a>
+                <a href="{{ route('kategori-surat.index') }}"><i class="material-icons-two-tone">edit</i>Kategori
+                    Surat</a>
             </li>
             <li>
                 <a href="calendar.html"><i class="material-icons-two-tone">bookmark</i>About</a>
