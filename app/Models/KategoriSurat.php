@@ -15,4 +15,9 @@ class KategoriSurat extends Model
         'nama_kategori_surat',
         'keterangan_kategori_surat',
     ];
+
+    public function arsipSurat()
+    {
+        return $this->hasMany(ArsipSurat::class, 'id_kategori_surat');
+    }
 }

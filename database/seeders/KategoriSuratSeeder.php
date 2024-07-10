@@ -18,6 +18,8 @@ class KategoriSuratSeeder extends Seeder
             DB::table('kategori_surat')->insert([
                 'nama_kategori_surat' => 'Kategori Surat ' . $i,
                 'keterangan_kategori_surat' => 'Keterangan Kategori Surat ' . $i,
+                'created_at' => now(),
+                'updated_at' => now(),
             ]);
         }
     }

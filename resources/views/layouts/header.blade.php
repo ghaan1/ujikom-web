@@ -5,7 +5,6 @@
     <meta name="description" content="Responsive Admin Dashboard Template">
     <meta name="keywords" content="admin,dashboard">
     <meta name="author" content="stacks">
-    <!-- The above 6 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
     <!-- Title -->
     <title>Ujikom - Politeknik Negeri Malang</title>
@@ -19,7 +18,6 @@
     <link
         href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp"
         rel="stylesheet">
-    {{-- <link href="../../assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet"> --}}
     <link href="../../assets/plugins/perfectscroll/perfect-scrollbar.css" rel="stylesheet">
     <link href="../../assets/plugins/pace/pace.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -33,4 +31,6 @@
 
     <link rel="icon" type="image/png" sizes="32x32" href="../../assets/images/polinema.png" />
     <link rel="icon" type="image/png" sizes="16x16" href="../../assets/images/polinema.png" />
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+
 </head>

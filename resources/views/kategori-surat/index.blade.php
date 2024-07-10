@@ -52,7 +52,6 @@
                                                 <td>{{ $listKategoriSurat->keterangan_kategori_surat }}</td>
                                                 <td>
                                                     <div class="text-center">
-
                                                         <a href="{{ route('kategori-surat.edit', $listKategoriSurat->id) }}"
                                                             class="btn btn-warning">Edit</a>
                                                         <form
