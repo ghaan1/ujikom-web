@@ -11,11 +11,22 @@ use Illuminate\Support\Facades\Storage;
 
 class ArsipSuratController extends Controller
 {
-    public function index()
+    public function index(Request $request)
     {
-        $arsipSurat = ArsipSurat::with('kategoriSurat')->paginate(10);
+        $query = ArsipSurat::with('kategoriSurat');
+
+        if ($request->has('search')) {
+            $search = $request->input('search');
+            $query->where(function ($q) use ($search) {
+                $q->where('nomor_surat', 'like', '%' . $search . '%')
+                    ->orWhere('judul_surat', 'like', '%' . $search . '%');
+            });
+        }
+
+        $arsipSurat = $query->paginate(10);
         return view('arsip-surat.index', compact('arsipSurat'));
     }
+
 
     public function create()
     {

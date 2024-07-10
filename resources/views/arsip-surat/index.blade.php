@@ -22,8 +22,8 @@
                                     <div class="input-group">
                                         <input type="text" name="search" class="form-control"
                                             placeholder="Cari Arsip Surat" value="{{ request('search') }}">
-                                        <button class="btn btn-secondary" style="margin-right: 10px"
-                                            type="submit">Cari</button>
+                                        <button class="btn btn-secondary" type="submit"
+                                            style="margin-right: 10px;">Cari</button>
                                     </div>
                                 </form>
                                 <a href="{{ route('arsip-surat.create') }}" class="btn btn-primary btn-lg">
